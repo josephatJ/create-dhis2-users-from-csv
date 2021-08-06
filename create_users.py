@@ -21,7 +21,7 @@ import os
 from utilities.get_server_access import get_user_name_and_password
 from utilities.create_users_object_from_csv import get_users_from_csv
 from utilities.system_ids  import get_system_ids
-from utilities.send_users  import create_user
+from utilities.send_users  import create_user,check_if_user_exist,update_user
 
 # Addresses
 DEST_BASE_URL = ''
@@ -63,7 +63,7 @@ async def main():
                 "userCredentials": {
                     "userInfo": { "id": users_system_ids[count] },
                     "username": user_row[3],
-                    "password": "Hps.2021",
+                    "password": user_row[10],
                     "userRoles": [ {
                     "id": user_row[7]
                     } ]
@@ -78,8 +78,17 @@ async def main():
                     "id": user_row[9]
                 } ]
             }
-        response = await create_user(user, DEST_BASE_URL,username,password, headers)
-        print(response)
+        # Check if user exist
+        exist_res = await check_if_user_exist(user, DEST_BASE_URL,username,password, headers)
+        print(exist_res)
+        if 'users' in exist_res and len(exist_res['users']) > 0:
+            # 
+            response = await update_user(exist_res['users'][0]['id'],user, DEST_BASE_URL,username,password, headers)
+            print('updated')
+            print(response)
+        else:
+            response = await create_user(user, DEST_BASE_URL,username,password, headers)
+            print(response)
             
 
 asyncio.run(main())
