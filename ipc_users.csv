@@ -1,0 +1,26 @@
+SN,NAMES,SURNAME AND OTHER NAMES,USERNAME,TITLE,PHONENUMBER,ROLES,ROLES REFERENCES,User groups,User groups reference,PASSWORD (Default),Organisation Unit references
+1,Shamim,Seif,shamimseif,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,oZXFV4bqnte
+2,Plukeria,Mushi,plukeriamushi,IPC FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,oZXFV4bqnte
+3,Julieth,Wilfred,jwilfred,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,yk8NZPlmIjL
+4,Fortunatus,Bulahya,fbulahya,IPC FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,yk8NZPlmIjL
+5,Ayoub,Panja,apanja,MTUHA/HMIS FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,yk8NZPlmIjL
+6,Elisamia,Maro,emaro,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,hZGbTy42NTH
+7,Rhoda,Mremi,rmremi,MTUHA/HMIS FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,hZGbTy42NTH
+8,Dickson,Chinunje,dchinunje,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,Xrwjg3OgdmS
+9,Theophora,Haule,tphaule,IPC FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,Xrwjg3OgdmS
+10,Cyrialis,Mutabuzi,cmutabuzi,MTUHA/HMIS FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,Xrwjg3OgdmS
+13,Emanuel,Mwanga,emanuelmwanga,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,xXi1J4KyX97
+14,Asha,Muttasingwa,amuttasingwa,IPC FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,xXi1J4KyX97
+15,Amanda,Anyoti,aanyoti,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,dzXkRSrcMBV
+16,Jackline,Mwaipopo,jmwaipopo,IPC FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,dzXkRSrcMBV
+17,Fiona,Kavishe,fkavishe,MTUHA/HMIS FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,dzXkRSrcMBV
+18,Dr Reuben ,Mutagaywa ,rmutagaywa,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,bAwoKsCXiT6
+19,Mohamed,Mbwana,mohamedmbwana,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,av7cOiKhqPT
+20,Geremana ,kawishe  ,gkawishe,IPC FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,av7cOiKhqPT
+21,Clauda,Myombo,cmyombo,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,H0hNfqaM8Ue
+22,Mosama,John,mosamajohn,IPC FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,H0hNfqaM8Ue
+23,Samson,Ndile,sndile,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,y9DO43xRhsp
+24,Sia,Thadei,sthadei,MTUHA/HMIS FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,y9DO43xRhsp
+25,Mary,Silas,msilas,QI FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,iZPRiXQMeXh
+26,Devotha,Charles,dcharles,IPC FP,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,iZPRiXQMeXh
+27,Catherine,Masalu,catherinemasalu,Laboratory Scientist,,IPC Data Manager,TFlh0xqlzAo,IPC Data Manager Group,l6vgjYRstrK,Hmis@2022,iZPRiXQMeXh

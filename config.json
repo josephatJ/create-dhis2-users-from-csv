@@ -1,0 +1,129 @@
+{
+    "apps": {
+        "directory": ""
+    },
+    "database": {
+        "name": "default",
+        "type": "postgres",
+        "host": "postgres-database",
+        "port": 5432,
+        "username": "postgres",
+        "password": "postgres",
+        "database": "hris",
+        "logging": false,
+        "synchronize": true,
+        "entities": [
+            "dist/src/modules/**/entities/*.entity.js"
+        ],
+        "migrations": [
+            "dist/src/database/migrations/**/*.js",
+            "src/src/database/migrations/**/*.ts"
+        ],
+        "subscribers": [
+            "src/subscriber/**/*.ts"
+        ],
+        "migrationsRun": true,
+        "cli": {
+            "entitiesDir": "src/modules/entities",
+            "migrationsDir": "src/database/migrations",
+            "subscribersDir": "src/subscriber"
+        }
+    },
+    "email": {
+        "auth": {
+            "user": "hrhishelp@gmail.com",
+            "pass": "HRHIS2020"
+        },
+        "user": "hrhishelp@gmail.com",
+        "pass": "HRHIS2020",
+        "smtp": "smtp.gmail.com",
+        "port": 465,
+        "notify": ["bennybenester@gmail.com", "bennytz201@gmail.com"]
+    },
+    "sms": {
+        "smsURL": "http://www.sms.co.tz/api.php?do=sms&username=Blove&password=Owner2017&senderid=NUTMEG"
+    },
+    "servers": {
+        "host": "http://127.0.0.1:4500"
+    },
+    "schedules": {
+        "url": "http://127.0.0.1:3000",
+        "auth": {
+            "username": "vincentminde",
+            "password": "HRHIS2020"
+        },
+        "himlive": {
+            "url": "https://him.moh.go.tz:5000",
+            "auth": {
+                "username": "hrhis-client",
+                "password": "$H1mHrh1s2021."
+            },
+            "tnmc": {
+                "url": "https://tnmcis.tnmc.go.tz/api/v1/practitioners?"
+            },
+            "ttcih": "http://elearning.moh.go.tz/api_home/send/course_category.php?key=c4ef352f74e502ef5e7bc98e6f4e493d&page="
+        },
+        "himstaging": {
+            "url": "https://him-dev.moh.go.tz:5000",
+            "auth": {
+                "username": "hrhis-client",
+                "password": "himhrhis2021"
+            },
+            "hprs": {
+                "auth": {
+                    "username": "hrhis@moh.go.tz",
+                    "password": "cTqgcawZMjM2Enz"
+                },
+                "hrPractionersUrl": "http://41.59.227.92:8181/hprs/api/v1/integration/hrhis/practitioners/",
+                "HPRSCouncils": "http://41.59.227.92:8181/hprs/api/v1/integration/hrhis/councils/"
+            },
+            "tnmc": {
+                "url": "https://tnmcis.tnmc.go.tz/api/v1/practitioners?"
+            },
+            "ttcih": "http://elearning.moh.go.tz/api_home/send/course_category.php?key=c4ef352f74e502ef5e7bc98e6f4e493d&page="
+        },
+        "tnmc": {
+            "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYWNiOGVlMmZhMjhlYmMyYzRlMGU1MTI3Mjc2MDZkYzRmMTllZDQ4ZTYzYjI2ZDkzMzM5OTM2M2E3ZDYyNGVjOWNlNTZiMzEwNWIyYWM0YWMiLCJpYXQiOjE2MjMxMzkzNjgsIm5iZiI6MTYyMzEzOTM2OCwiZXhwIjoxNjU0Njc1MzY4LCJzdWIiOiIxIiwic2NvcGVzIjpbXX0.IzWDI_cMVCFyrpKFcuaYXPrRB-sRim4HvAdhKjsdxB7HejBgDY-PyPFUck76pgWzwTMwTJEEgJKVB1kHCMpkcO2SQ8qZjkQ0AJzqtmMbQnCDmGNUN2pm8vcAnvpfp0jP20H-CuBqFoEXRghoHIgpOuct-Jks3rOa6PWvUZn0jUkIKnEZhaUfKQplJp2Vs8Gz9eJ4Pq_7DzLcRIdJaKRvKiXH_0g3YlXc_NXCtLIH-eCuqsgAoaXWKRT9pANX5GaN4bKM3HD3ZfTVDsWsUr-PxoFsN4Tn0WU1Lmc1m642sbvI4eqFBqJ7nRCu5BO9pdfWurFXTI71yiARUQ_x-ho6MnqnhVbkqAFxMsmTVsWGWpjefoOMtOFn1iouhY0YgHRI_peHqYxAT_qRH6Tnv05x5NCDtevU9kiTHCM5eaYEM_UN_gcNzsOo3UQjMp1Yj70zsnN-v8nExyq_0hfJNYNHTxo6JA7HjeRS1JVndSaMU4DPYn8XjmwDqUjlDA-NJ-3l2G10V4IeiOu980G63zfX0gne6jhLpHwgZDHLjQoZATZVSKsERMySrL8K9fGtgQ1JJdyXVke-_Nz6-zIcDrWrvMJ-5-ikgt_VX6HlHas23L8TyVJvPd7Aav6IWQNGkG1UdHyR3_vwEa9T9-bHr5Mv-5QD-_MNKsonqSXl5h5ctl0",
+            "url": "https://tnmcis.tnmc.go.tz/api/v1/practitioners?"
+        },
+        "mct": {
+            "url": "http://mct.go.tz/oas/api/updated_b6bd40810f4ad2e888b5acf7c57af1d0.php?key=HRHIS0000000001"
+        },
+        "hfr": {
+            "url": "http://196.192.79.64/hfrs/web/index.php?r=site/facility-staffinfo&reqToken=",
+            "tokenHim": "DjzZ3YaAfNfCu9TXMuHExCPhW0OMac9vZWpjZ0svna38RNW",
+            "tokenPeer": "gduygweudygweuydgwuydguyDGWUDYWD"
+        },
+        "pharmacy": {
+            "url": "http://196.45.42.57/pcmis.data/model/API/hrhis-request-data.php",
+            "token": "0b47daa00dcdd9481d993edef5f4abba&password=b76ba9c60a43ad0a4f5c5983a2cf0951"
+        },
+        "nacte": {
+            "url": "https://www.nacte.go.tz/nacteapi/index.php/api",
+            "token": "ab384dd655caf3a0.197224e65f389a6328ea6d1f278423ee3ab90666342eb8998774b05c0dd95a73.6e6c890c08ec0a6570274a0a2b93ceeba0ade024"
+        },
+        "tcu": {
+            "url": "http://41.59.90.200/admission",
+            "username": "MHCDGE",
+            "token": "87zMf2rUhJYwKgXf3y7k"
+        },
+        "hprs": {
+            "auth": {
+                "username": "hrhis@moh.go.tz",
+                "password": "cTqgcawZMjM2Enz"
+            },
+            "hrPractionersUrl": "http://41.59.227.92:8181/hprs/api/v1/integration/hrhis/practitioners/",
+            "HPRSCouncils": "http://41.59.227.92:8181/hprs/api/v1/integration/hrhis/councils/"
+        }
+    },
+    "redisSession": {
+        "redisOpt": {
+            "port": 6379,
+            "host": "redis-cache"
+        },
+        "sessionOpt": {
+            "secret": "THESECRET"
+        },
+        "header": "Session"
+    }
+}

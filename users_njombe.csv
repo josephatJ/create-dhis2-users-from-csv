@@ -1,0 +1,51 @@
+SN,NAMES,SURNAME AND OTHER NAMES,USERNAME,TITLE,PHONENUMBER,ROLES,ROLES REFERENCES,User groups,User groups reference,PASSWORD (Default),Organisation Unit
+1,Sophia,John Msemwa,somsemwa,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,OprBh0kR6NO
+2,Wilson,Samwel Mlang'a,smlang'a,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,FJBJnT2sZUz
+3,Baraka,Samson Mwaveya,bmwaveya,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,siX73PeJA5F
+4,Genifa,Yuda Mkolo,gmkolo,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,dRREa2UgCVl
+5,Issa,Ally Mkanyate,imkanyate,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,NALelMIfAaJ
+6,Joyce,Otmary Mtweve,jmtweve,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,QjGsfaDBkcZ
+7,Ibrahim,Sajiel Kowero,ikowero,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,Q8xq4s7hYCg
+8,Alto,Edward Matengo,amasengo,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,icU4OKqVnHo
+9,lulu ,Fidelis Komba,lkomba,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,gbkjVIIBnyy
+10,Weston,Peter Mtega,wpmtega,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,LWpaz2f52zV
+11,Marietha,Wendelin Mtitu,mmtitu,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,uIPaV3gfafx
+12,Neema ,Atirio Lugala,nlugala,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,TxAhc20aoQV
+13,Narold,Elika Mbilinyi,nmbilinyi,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,By0CQdWUF54
+14,Evelyne,Jankin Hiluka,ehiluka,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,ays7sSsA46q
+15,Medelina,Fabian Mgani,mmgani,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,tbfcyDIrhos
+16,Maria,Gidion Sindila,msindila,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,YP37UuUbkzD
+17,Daud ,Sinai Mwakisu,dmwakisu,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,UOFjWolXZZl
+18,Hendry,Stuart Lema,hlema,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,HM9GgVvGcLr
+19,Visensio,Leonard Mwanakatwe,vmwanakatwe,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,dzB1txXGzXB
+20,Jackson ,Elias Lukololo,jlukololo,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,mOOKh0LGm6c
+21,Shukrani,Jickson Ndeme,sndeme,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,PwlxnyhdA5Q
+22,Thea,Meinrad Haule,theahaule,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,bkPuEFj7fE3
+23,Beatha,Alfred Mtega,bmtega,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,ILZCjHNDSau
+24,Katarini,Blastus Kumburu,kkumburu,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,qv1o29KI3aP
+25,Devota,Bruno Sambala,dsambala,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,c36iVBPTOqP
+26,Maeselina,John Mtitu,mamtitu,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,GOmwoDIGL98
+27,Dennis ,Aron Haule,dhaule,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,GOmwoDIGL98
+28,Benn,Antony Ngogo,bngogo,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,GOmwoDIGL98
+29,Shella,Rashid Myemba,smyemba,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,GOmwoDIGL98
+30,Nicholas,Luciana Sayana,nsayana,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,GOmwoDIGL98
+31,Kalista,Venance Msigwa,kmsigwa,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,m4ow47nd3DC
+32,Frank,James Chiduo,fjchiduo,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,m4ow47nd3DC
+33,Kaka,Jacob Sichome,ksichome,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,m4ow47nd3DC
+34,Joseph,Angerus Shinyaka,joseshinyaka,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,ApSPj8Ql1fD
+35,Richard,Josephat Mahundi,rmahundi,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,ApSPj8Ql1fD
+36,Suzan,Samwel Machele,smachele,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,ApSPj8Ql1fD
+37,Edward,John Kwetu,ekwetu,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,ApSPj8Ql1fD
+38,Rodger,Beatus Mgecha,rmgecha,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,ApSPj8Ql1fD
+39,Ndivako,Fredrik Mbilinyi,nmbilinyi,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,GOmwoDIGL98
+40,Suleiman,Issa Selega,sselega,,,Data Manager,ZI4hVQsL7Dq,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,GOmwoDIGL98
+41,Ibrahimu,Mbilinyi,ibrambilinyi,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,NzvekEmEzUG
+42,Lufunyo,Mgeni,lmgeni,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,NzvekEmEzUG
+43,Stanley,Munisi,stanmunisi,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,NzvekEmEzUG
+44,Nuru,Luvanda,nluvanda,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,NzvekEmEzUG
+45,Jackline,Dorothy Nannauka,jnannauka,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,NzvekEmEzUG
+46,Erica,Kaberege,ericakaberege,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,NzvekEmEzUG
+47,Verlard,Ntongolo,vntongolo,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,NzvekEmEzUG
+48,Sophia ,Mfungati,smfungati,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,qarQhOt2OEh
+49,Subilaga,Mwaigwisya,smwaigwisya,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,qarQhOt2OEh
+50,Samson,Soro,ssoro,,,Program Manager,wnEvOlOb9U9,_DATASET_Data Manager,zk2Zubvm2kP,Dhis_2021,qarQhOt2OEh
