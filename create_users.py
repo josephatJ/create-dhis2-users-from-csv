@@ -23,6 +23,7 @@ from utilities.get_server_access import get_user_name_and_password
 from utilities.create_users_object_from_csv import get_users_from_csv
 from utilities.system_ids  import get_system_ids
 from utilities.send_users  import create_user,check_if_user_exist,update_user
+from utilities.get_ou_details_by_code import get_ou_details_by_code
 
 # Addresses
 DEST_BASE_URL = ''
@@ -44,6 +45,8 @@ users_details = []
 existing_users = []
 existing_users_headers= ['Names', 'username', 'OU', 'Response']
 existing_users.append(existing_users_headers)
+
+ous_reference={}
 
 async def save_existing_users(rows):
     path = os.getcwd()
@@ -68,55 +71,68 @@ async def main():
     # headers['Authorization'] = 'Basic %s' %  userAndPass
 
     for count,user_row in enumerate(users_data, start=0):
-        roles = []
-        groups = []
-        for role_id in user_row[7].split(","):
-            roles.append({
-                "id": role_id.replace(" ","")
-            })
-        for group_id in user_row[9].split(","):
-            groups.append({
-                "id": group_id.replace(" ","")
-            })
-
-        user = {
+        roles = [
+            {
+                "id": "BnC81olavBI"
+            }
+        ]
+        groups = [{
+            "id": "MfVZfXnJx2B"
+        }]
+        # for role_id in user_row[7].split(","):
+        #     roles.append({
+        #         "id": role_id.replace(" ","")
+        #     })
+        # for group_id in user_row[9].split(","):
+        #     groups.append({
+        #         "id": group_id.replace(" ","")
+        #     })
+        ou_code = user_row[7]
+        # Get ou by code
+        ou_details = await get_ou_details_by_code(DEST_BASE_URL,username,password,ou_code)
+        if len(ou_details) > 0:
+            ou_id = ou_details[0]["id"]
+            if ou_id:
+                # create user
+                user = {
                 "id": users_system_ids[count],
-                "firstName": user_row[1],
-                "surname": user_row[2],
+                "firstName": user_row[0],
+                "surname": user_row[1],
                 "email": "",
+                "phoneNumber": "0" + user_row[2],
                 "userCredentials": {
                     "userInfo": { "id": users_system_ids[count] },
                     "username": user_row[3].replace(" ","").replace("  ",""),
-                    "password": user_row[10],
+                    "password": user_row[4],
                     "userRoles": roles
                 },
                 "organisationUnits": [ {
-                    "id": user_row[11]
+                    "id": ou_id
                 } ],
                 "dataViewOrganisationUnits":  [ {
-                    "id": user_row[12]
+                    "id": ou_id
                 } ],
                 "userGroups":groups
             }
-        # Check if user exist
-        print(json.dumps(user))
-        exist_res = await check_if_user_exist(user, DEST_BASE_URL,username,password, headers)
-        print(exist_res)
-        if 'users' in exist_res and len(exist_res['users']) > 0:
-            # Save on excel the user details
-            # response = await update_user(exist_res['users'][0]['id'],user, DEST_BASE_URL,username,password, headers)
-            # print('updated')
-            # print(response)
-            user =[]
-            user.append(user_row[1])
-            user.append(user_row[3])
-            user.append(user_row[11])
-            user.append(json.dumps(exist_res['users'][0]))
-            existing_users.append(user)
-            save_response = await save_existing_users(existing_users)
-        else:
-            response = await create_user(user, DEST_BASE_URL,username,password, headers)
-            print(response)
-            
+            # Check if user exist
+            print(json.dumps(user))
+            exist_res = await check_if_user_exist(user, DEST_BASE_URL,username,password, headers)
+            print(exist_res)
+            if exist_res == True:
+                # Save on excel the user details
+                # response = await update_user(exist_res['users'][0]['id'],user, DEST_BASE_URL,username,password, headers)
+                # print('updated')
+                # print(response)
+                user =[]
+                user.append(user_row[0] + " "+ user_row[1])
+                user.append(user_row[6])
+                user.append("EXISTS")
+                existing_users.append(user)
+                save_response = await save_existing_users(existing_users)
+                # Update existing user
+            else:
+                response = await create_user(user, DEST_BASE_URL,username,password, headers)
+                print(response)
+
 
 asyncio.run(main())
